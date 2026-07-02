@@ -64,6 +64,7 @@
         {
             if (_payments.Count == 0)
             {
+
                 Console.WriteLine("Currently no payments to process.");
                 return;
             }
