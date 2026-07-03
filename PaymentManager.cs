@@ -2,7 +2,7 @@
 {
     public class PaymentManager
     {
-        private List<Payment> _payments = new List<Payment>();
+        private readonly List<Payment> _payments = new List<Payment>();
 
         public PaymentManager() { }
 
